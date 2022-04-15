@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h2 {
+ font-family: "PT Sans Narrow",sans-serif;
+ font-size: 1.25rem;
+ font-weight: bolder;
+}
+
+.banner {
+  background-color: #bd027d;
+}
+
+body {
+  background-color: #bebebe;
+}
+
+head {
+  text-align: center;
+}
+
+title {
+  height: 100px;
+}
+
+header {
+  background-color: #bd027d;
+  display: block;
+  align-items: center;
+  margin-right: -.5em;
+  margin-left: -.5em;
+  margin-top: -1.5em;
+}
+
+li {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+}
+
+main p {
+  font-family: "Georgia";
+  font-size: 1.25rem;
+  margin: 1.5rem;
+}
+
+  h2 {
+
+  }
+
+li strong {
+  font-family: "Georgia";
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: lighter;
+  color: #000;
+}
+section ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+Ul li a {
+  border: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  margin: 1.5rem;
+  color: #960062;
+  padding: 1rem;
+}
+
+section li {
+  background-color: #ccc;
+  text-align: center;
+  border: solid;
+  border-color: #afafaf;
+  border-radius: 6px;
+  padding: 1.5rem;
+  border-width: 2px;
+  gap: 2rem;
+}
+
+div {
+  text-align: center;
+  border: solid;
+  border-radius: 1.5rem 0 0 1.5rem;
+  border-color: #afafaf;
+  background-color: #afafaf;
+  margin-right: -25px;
+  margin-left: 30px;
+}
+
+h3 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  border: solid;
+  /* border-left: 0px; */
+  /* border-right: 0px; */
+  /* border-radius: 6px; */
+  border-color: #afafaf;
+  background-color: #afafaf;
+  margin-right: -25px;
+  margin-left: -25px;
+  padding: 1.5rem;
+}
+
+section img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  margin-left: 500px;
+  text-decoration: none;
+}
+
+nav li {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
