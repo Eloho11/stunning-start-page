@@ -1,17 +1,17 @@
 html {
-    box-sizing: border-box;
-    font-family: "Georgia";
-    line-height: 1.5;
-  }
+  box-sizing: border-box;
+  font-family: Georgia;
+  line-height: 1.5;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 h2 {
- font-family: "PT Sans Narrow",sans-serif;
- font-size: 1.25rem;
- font-weight: bolder;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bolder;
 }
 
 .banner {
@@ -47,19 +47,13 @@ li {
 }
 
 main p {
-  font-family: "Georgia";
+  font-family: Georgia;
   font-size: 1.25rem;
   margin: 1.5rem;
 }
 
-h2 {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 1.125rem;
-  color: #323232;
-  }
-
 li strong {
-  font-family: "Georgia";
+  font-family: Georgia;
   font-size: 1.25rem;
   font-style: italic;
   font-weight: lighter;
