@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: sans-serif;
   line-height: 1.5;
 }
 
@@ -20,7 +20,7 @@ h2 {
 
 body {
   background-color: #bebebe;
-  margin: .5em;
+  margin: 0;
 }
 
 head {
