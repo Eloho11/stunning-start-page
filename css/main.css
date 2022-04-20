@@ -33,11 +33,13 @@ title {
 
 header {
   background-color: #bd027d;
-  display: block;
-  align-items: center;
-  margin-right: -.5em;
-  margin-left: -.5em;
-  margin-top: -1.5em;
+  display: grid;
+  grid-template-areas: left center right;
+}
+
+header h1 {
+  display: grid;
+  grid-area: auto;
 }
 
 li {
@@ -76,6 +78,8 @@ Ul li a {
 }
 
 section li {
+  display: grid;
+  grid-template-areas: auto;
   background-color: #ccc;
   text-align: center;
   border: solid;
@@ -84,6 +88,11 @@ section li {
   padding: 1.5rem;
   border-width: 2px;
   gap: 2rem;
+}
+
+section div {
+  display: flex;
+  justify-content: flex-end;
 }
 
 div {
@@ -108,7 +117,7 @@ h3 {
   padding: 1.5rem;
 }
 
-section img{
+section img {
   max-height: 100%;
   max-width: 100%;
 }
@@ -120,6 +129,17 @@ li {
 a {
   margin-left: 500px;
   text-decoration: none;
+}
+
+nav {
+  display: grid;
+  grid-column: auto;
+  grid-row: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 nav li {
